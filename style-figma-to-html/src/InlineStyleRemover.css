@@ -1,0 +1,63 @@
+/* App.css */
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* App.css */
+
+.centered-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.styled-container {
+  text-align: center;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.text-area {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.remove-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #45a049;
+}
+
+.inline-style-container {
+  max-height: 200px; /* Set your initial max height */
+  overflow-y: auto;
+  transition: max-height 0.3s ease; /* Add a transition for a smooth height change */
+}
+
+.inline-style-element {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Add more styles as needed */
